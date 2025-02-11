@@ -1,0 +1,36 @@
+2025-02-11 14:07:26 - INFO - Args:
+2025-02-11 14:07:26 - INFO -   train_path: C:\Users\jixia\Desktop\343434\DataSet\train
+2025-02-11 14:07:26 - INFO -   test_path: C:\Users\jixia\Desktop\343434\DataSet\test
+2025-02-11 14:07:26 - INFO -   image_size: (32, 96)
+2025-02-11 14:07:26 - INFO -   save_results: .\model
+2025-02-11 14:07:26 - INFO -   load_models: C:\Users\jixia\Desktop\343434\hog_svm\model
+2025-02-11 14:07:26 - INFO -   test_files: C:\Users\jixia\Desktop\images
+2025-02-11 14:07:26 - INFO -   step_size: 8
+2025-02-11 14:07:26 - INFO -   window_size: (32, 96)
+2025-02-11 14:07:26 - INFO -   scale: 1.2
+2025-02-11 14:07:26 - INFO -   min_size: (64, 128)
+2025-02-11 14:07:26 - INFO -   dis_thre: 1.0
+2025-02-11 14:07:26 - INFO -   nms_threshold: 0.5
+2025-02-11 14:07:26 - INFO -   orientations: 9
+2025-02-11 14:07:26 - INFO -   pixels_per_cell: (8, 8)
+2025-02-11 14:07:26 - INFO -   cells_per_block: (2, 2)
+2025-02-11 14:07:26 - INFO -   block_norm: L2-Hys
+2025-02-11 14:07:26 - INFO -   transform_sqrt: True
+2025-02-11 14:07:26 - INFO -   feature_vector: True
+2025-02-11 14:07:26 - INFO -   C: (0.1, 1, 10, 100)
+2025-02-11 14:07:26 - INFO -   kernel: ('linear', 'rbf')
+2025-02-11 14:07:26 - INFO -   gamma: ('scale', 'auto', 0.001, 0.01, 0.1)
+2025-02-11 14:07:26 - INFO -   max_workers: 4
+2025-02-11 14:07:33 - INFO - Loading dataset...
+2025-02-11 14:07:33 - INFO - Loaded 2416 positive samples and 2436 negative samples.
+2025-02-11 14:07:33 - INFO - Loaded 1132 positive samples and 906 negative samples.
+2025-02-11 14:07:47 - INFO - Scale model has been saved to: .\model\scale_model_2025_02_11_14_07_47.pkl
+2025-02-11 14:08:06 - INFO - Starting grid search...
+2025-02-11 14:18:25 - INFO - Best parameters: {'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}
+2025-02-11 14:18:25 - INFO - Best cross-validation score: 0.97
+2025-02-11 14:18:28 - INFO - Test set score: 0.97
+2025-02-11 14:18:28 - INFO - Svm model has been saved to: .\model\scale_model_2025_02_11_14_07_47.pkl
+2025-02-11 14:18:30 - INFO - Test set accuracy: 0.97
+2025-02-11 14:18:30 - INFO - Test set precision: 0.97
+2025-02-11 14:18:30 - INFO - Test set recall: 0.98
+2025-02-11 14:18:30 - INFO - Test set f1: 0.97
